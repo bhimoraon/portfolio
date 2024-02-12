@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 
 function About() {
@@ -52,7 +51,7 @@ function About() {
                     name: "Linkedin",
                     link: "https://www.linkedin.com/company/56403597",
                   },
-                ].map((item, index) => (
+                ].map((item:any) => (
                   <a href={item.link} className="text-start">
                     {item.name}
                   </a>
