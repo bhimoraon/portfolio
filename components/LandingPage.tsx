@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowDown } from "react-icons/fa6"; 
 
-function LandingPage({bhim}) {
+function LandingPage(prop:any) {
   return (
     <main data-scroll data-scroll-section data-scroll-speed= '-.7' className="w-full h-screen text-white ">
       <div className="maintext py-52 uppercase text-8xl tracking-tighter lending-none px-20 font-extrabold">
@@ -23,7 +23,7 @@ function LandingPage({bhim}) {
           );
         })}
       </div>
-      <h1>{bhim.name}</h1>
+      <h1>{prop.bhim.name}</h1>
       <div className="border-t-[1px] border-zinc-700 "></div>
       <div className="flex justify-between px-20 py-7">
         {[

@@ -40,10 +40,10 @@ function Projects() {
               <div className="w-3 h-3 rounded-full bg-white"></div>
               <h3>FYDE</h3>
             </span>
-            <img alt="" width={100} height={100}
+            <motion.img alt="" width={100} height={100}
               src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png"
               className="left rounded-2xl w-full"
-            ></img>
+            ></motion.img>
           </div>
           <div
             onMouseEnter={() => {
@@ -57,7 +57,7 @@ function Projects() {
               <h3>VISE</h3>
             </span>
            
-            <img
+            <motion.img
               width={100}
               height={100}
               src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg"

@@ -1,6 +1,7 @@
 
+import { motion } from "framer-motion";
 import Image from "next/image";
-import React from "react";
+import React from "react"; 
 
 function Card() {
   return (
@@ -21,7 +22,7 @@ function Card() {
           <button className="px-4 py-2 border-[1px] absolute left-12 bottom-10 text-white rounded-full tracking-tighter">RATING 5.0 ON CLUTCH</button>
         </div>
         <div className="h-full w-full relative bg-[#212121]  rounded-2xl flex justify-center items-center border-[1px]">
-          <img width={100} height={100}
+          <motion.img  width={100} height={100}
             src="https://ochi.design/wp-content/uploads/2022/04/logo003.png"
             alt=""
           />

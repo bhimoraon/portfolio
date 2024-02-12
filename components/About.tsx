@@ -1,6 +1,8 @@
 "use client";
 
+
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 
 function About() {
@@ -71,11 +73,12 @@ function About() {
               </motion.button>
             </div> 
       
-           <motion.img 
-              className="bg-center  bg-cover rounded-3xl w-1/2 "
-              src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg"
-             
-            />
+            <motion.img
+      src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg"
+      alt="Description of the image"
+      
+      className="bg-center bg-cover rounded-3xl w-1/2"
+    />
            
             
           </div>
