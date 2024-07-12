@@ -4,7 +4,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="w-full h-screen gap-10 flex px-20 pt-36 ">
+    <div className=" w-full h-screen gap-10 flex px-20 pt-36 ">
       <div className="left relative bg-[#004D43] h-[52vh] w-1/2 rounded-2xl flex justify-center items-center border-[1px]">
         <Image className="scale-150" width={100} height={100}
           src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg"
