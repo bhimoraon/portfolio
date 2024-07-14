@@ -9,10 +9,9 @@ import LocomotiveScroll from "locomotive-scroll";
 
 export default function Home() {
   const locomotiveScroll = new LocomotiveScroll();
-  const bhim = { name: "RohanKachhap", age: 23, scid: 2213129 };
   return (
     <>
-      <LandingPage bhim={bhim} />
+      <LandingPage  />
 
       <Marquee />
       <About />
