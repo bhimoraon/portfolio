@@ -14,7 +14,7 @@ function About() {
           <span className="underline"> hire great people</span>.
         </h2>
 
-        <div className="w-full border-t-[1px] flex border-zinc-500 h-[49vh] mt-20 pt-10 px-20 text-lg">
+        <div className="w-full border-t-[1px] flex border-zinc-500 h-[49vh] mt-20 pt-10 px-20 text-lg ">
           <div className="left w-1/2">What you can expect:</div>
           <div className="right w-1/2 flex gap-60">
             <p className="w-[18vw]">
@@ -26,7 +26,7 @@ function About() {
               We believe the mix of strategy and design (with a bit of coffee)
               is what makes your message clear, convincing, and captivating.
             </p>
-            <div className="mt-28">
+            <div className="mt-28 ">
               <h1>Socials</h1>
               <br />
               <div className="flex flex-col underline">

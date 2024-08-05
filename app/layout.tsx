@@ -16,13 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en " className="bg-zinc-900" >
+    <html lang="en " className="">
       <body className={inter.className}>
         <NavBar />
-        <div className="w-full h-[9vh] bg-zinc-800">
-        </div>
-          {children}
-      
+        <div className="w-full h-[9vh] bg-zinc-800"></div>
+        {children}
       </body>
     </html>
   );
