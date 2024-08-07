@@ -8,7 +8,7 @@ function OneEye() {
 				>
 					<div className="h-6 w-6 flex justify-center items-center bg-zinc-100 rounded-full"></div>
 				</div>
-			</div>
+			</div> 
 		</div>
 	);
 }
